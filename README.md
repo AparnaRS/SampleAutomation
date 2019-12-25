@@ -16,6 +16,9 @@ Extent Reports
 ### Steps to clone execute the tests
 
 git clone https://github.com/AparnaRS/OpenTable.git
+
+##Steps to execute tests
+
 mvn test
 
 
