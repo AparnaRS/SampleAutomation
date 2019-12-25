@@ -50,7 +50,7 @@ public class BaseTest {
 	}
 	
 	@AfterTest(alwaysRun = true)
-	protected void tearDown() {
+	protected void tearDown() throws InterruptedException {
 		log.info("Test tear down");
 		driver.close();
 		//assertion.assertAll();
