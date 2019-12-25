@@ -1,4 +1,4 @@
-package com.aparna.Utilities;
+package Utilities;
  
 import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.OutputType;
@@ -7,9 +7,10 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import com.aparna.Utilities.BaseTest;
+
 import ExtentReports.ExtentManager;
 import ExtentReports.ExtentTestManager;
+import Utilities.BaseTest;
  
 public class TestListener extends BaseTest implements ITestListener {
  

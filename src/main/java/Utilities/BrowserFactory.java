@@ -1,4 +1,4 @@
-package com.aparna.Utilities;
+package Utilities;
 
 import java.io.File;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.aparna.Utilities;
+package Utilities;
 
 import java.util.List;
 import java.util.Properties;

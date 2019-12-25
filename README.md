@@ -19,7 +19,11 @@ git clone https://github.com/AparnaRS/OpenTable.git
 
 ##Steps to execute tests
 
-mvn test
+
+mvn test -Dbrowser=chrome     // to execute tests in chrome
+
+
+mvn test =Dbrowser=firefox     // to execute tests in firefox
 
 
 ### The driver versions uploaded are for chromedriver 79 

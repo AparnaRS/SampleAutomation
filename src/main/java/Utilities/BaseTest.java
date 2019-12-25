@@ -1,4 +1,4 @@
-package com.aparna.Utilities;
+package Utilities;
 
 import java.net.MalformedURLException;
 import java.util.Properties;

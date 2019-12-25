@@ -1,4 +1,4 @@
-package com.aparna.pages;
+package Pages;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -9,9 +9,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-
-import com.aparna.Utilities.BasePageObject;
-import com.aparna.Utilities.BaseTest;
+import Utilities.BasePageObject;
+import Utilities.BaseTest;
 
 
 

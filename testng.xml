@@ -3,17 +3,17 @@
 <suite name="Demo Test Suite">
 
 	<listeners>
-		<listener class-name="com.aparna.Utilities.TestListener"></listener>
+		<listener class-name="Utilities.TestListener"></listener>
 	</listeners>
 
 
 	<test name="React Shopping Cart Test Cases">
-	<parameter name="browser"  value="chrome"/>
+	<parameter name="browser"  value="${browser}"/>
 	<parameter name="env"  value="qa1"/>
 		<classes>
-			<class name="com.aparna.testcases.FilterTestCases"></class>
-			<class name="com.aparna.testcases.CartTestCases"></class>
-			<class name="com.aparna.testcases.SortTestCases"></class>
+			<class name="testCases.FilterTestCases"></class>
+			<class name="testCases.CartTestCases"></class>
+			<class name="testCases.SortTestCases"></class>
 		</classes>
 	</test>
 </suite>
