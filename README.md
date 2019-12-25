@@ -25,3 +25,5 @@ mvn test
 ### The driver versions uploaded are for chromedriver 79 
 
 Out of 11, 10 test cases and expected to pass and 1 testt case is expected to fail
+
+Check report index.html in folder 'test-output'
