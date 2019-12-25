@@ -15,3 +15,10 @@ Extent Reports
 
 ### Steps to clone execute the tests
 
+git clone https://github.com/AparnaRS/OpenTable.git
+mvn test
+
+
+### The driver versions uploaded are for chromedriver 79 
+
+Out of 11, 10 test cases and expected to pass and 1 testt case is expected to fail
