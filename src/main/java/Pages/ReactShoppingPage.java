@@ -69,7 +69,7 @@ public class ReactShoppingPage extends BasePageObject<ReactShoppingPage> {
 	public void applyFilter(String size) throws InterruptedException{
 		 By filter = By.xpath("//input[@type='checkbox'][@value='"+size+"']");
 		 click(filter);
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 	}
 	public boolean isFilterSelected(String size) throws InterruptedException{
 		 By filter = By.xpath("//input[@type='checkbox'][@value='"+size+"']");

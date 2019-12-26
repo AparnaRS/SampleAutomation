@@ -34,7 +34,7 @@ public class FilterTestCases extends BaseTest {
 		ReactShoppingPage rsp = new ReactShoppingPage(driver, log, prop, config, jse);
 		int countOfProducts = rsp.getCountOfProducts();
 		int countDisplayed = rsp.getCountOfProductsDisplayed();
-		Assert.assertEquals(countOfProducts, countDisplayed);
+		Assert.assertEquals(countOfProducts, countDisplayed, "Failed: Product count does not match the number of products listed");
 	}
 	
 	
@@ -42,35 +42,35 @@ public class FilterTestCases extends BaseTest {
 	public void verifyfilterWhenOnlyOneMatchingProduct() throws InterruptedException {
 		ReactShoppingPage rsp = new ReactShoppingPage(driver, log, prop, config, jse);
 		rsp.applyFilter("XS");
-		Assert.assertEquals(rsp.isFilterSelected("XS"), true);
+		Assert.assertEquals(rsp.isFilterSelected("XS"), true,"Failed: Filter not applied on clicking");
 		int countOfProducts = rsp.getCountOfProducts();
 		int countDisplayed = rsp.getCountOfProductsDisplayed();
-		Assert.assertEquals(countOfProducts, countDisplayed);
+		Assert.assertEquals(countOfProducts, countDisplayed, "Failed: Count of products shown does not match the actual number of products displayed");
 		int countInInventory = rsp.getCountOfInventoryForSize("XS");
-		Assert.assertEquals(countOfProducts, countInInventory);
+		Assert.assertEquals(countOfProducts, countInInventory, "Failed: Number of products listed does not match with inventory count");
 	}
 	
 	@Test(priority = 8, groups = {"filters"}, description ="Verify filter when no product matches filter criteria")
 	public void verifyFilterWhenNoMatchingProduct() throws InterruptedException {
 		ReactShoppingPage rsp = new ReactShoppingPage(driver, log, prop, config, jse);
 		rsp.applyFilter("ML");
-		Assert.assertEquals(rsp.isFilterSelected("ML"), true);
+		Assert.assertEquals(rsp.isFilterSelected("ML"), true, "Failed: Filter not applied on clicking");
 		int countOfProducts = rsp.getCountOfProducts();
 		int countDisplayed = rsp.getCountOfProductsDisplayed();
-		Assert.assertEquals(countOfProducts, countDisplayed);
+		Assert.assertEquals(countOfProducts, countDisplayed, "Failed: Count of products shown does not match the actual number of products displayed");
 		int countInInventory = rsp.getCountOfInventoryForSize("ML");
-		Assert.assertEquals(countOfProducts, countInInventory);
+		Assert.assertEquals(countOfProducts, countInInventory,  "Failed: Number of products listed does not match with inventory count");
 	}
 	@Test(priority = 9, groups = {"filters"}, description = "Verify filter when multiple products matches filter criteria")
 	public void verifyFilterWhenMultipleMatchingProduct() throws InterruptedException {
 		ReactShoppingPage rsp = new ReactShoppingPage(driver, log, prop, config, jse);
 		rsp.applyFilter("L");
-		Assert.assertEquals(rsp.isFilterSelected("L"), true);
+		Assert.assertEquals(rsp.isFilterSelected("L"), true, "Failed: Filter not applied on clicking");
 		int countOfProducts = rsp.getCountOfProducts();
 		int countDisplayed = rsp.getCountOfProductsDisplayed();
-		Assert.assertEquals(countOfProducts, countDisplayed);
+		Assert.assertEquals(countOfProducts, countDisplayed, "Failed: Count of products shown does not match the actual number of products displayed");
 		int countInInventory = rsp.getCountOfInventoryForSize("L");
-		Assert.assertEquals(countOfProducts, countInInventory);
+		Assert.assertEquals(countOfProducts, countInInventory, "Failed: Number of products listed does not match with inventory count");
 	}
 
 	

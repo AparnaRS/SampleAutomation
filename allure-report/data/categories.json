@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Cart should not be open on clicking on product. expected [false] but found [true]",
+      "children" : [ {
+        "name" : "Verify that clicking on product image does not add product to cart.",
+        "uid" : "51af3e2b3ae1d686",
+        "parentUid" : "07452f87f294b75a7565325dbe9cf3fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1577338952694,
+          "stop" : 1577338956033,
+          "duration" : 3339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "${browser}", "qa1" ]
+      } ],
+      "uid" : "07452f87f294b75a7565325dbe9cf3fd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -22,7 +22,7 @@ public class SortTestCases extends BaseTest {
 	public void verifySortFromLowestToHighestPrice() throws InterruptedException {
 		ReactShoppingPage rsp = new ReactShoppingPage(driver, log, prop, config, jse);
 		rsp.selectSortOption("lowestprice");
-		Assert.assertEquals(rsp.isSortedLowestToHighest(), true);
+		Assert.assertEquals(rsp.isSortedLowestToHighest(), true, "Failed: products not listed from price Lowest to Highest");
 	}
 	
 
@@ -30,7 +30,7 @@ public class SortTestCases extends BaseTest {
 	public void verifySortHighestToLowestPrice() throws InterruptedException {
 		ReactShoppingPage rsp = new ReactShoppingPage(driver, log, prop, config, jse);
 		rsp.selectSortOption("highestprice");
-		Assert.assertEquals(rsp.isSortedHighestToLowest(), true);
+		Assert.assertEquals(rsp.isSortedHighestToLowest(), true, "Failed: products not listed from price Highest to Lowest");
 	}
 	
 }

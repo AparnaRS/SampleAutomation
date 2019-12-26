@@ -1,0 +1,142 @@
+{
+  "uid" : "e3203150670f9f4f",
+  "name" : "Verify sort by price Highest to Lowest",
+  "fullName" : "testCases.SortTestCases.verifySortHighestToLowestPrice",
+  "historyId" : "de0e3d2ee2ffe2ce0aaa2789879d5a3",
+  "time" : {
+    "start" : 1577339038125,
+    "stop" : 1577339044020,
+    "duration" : 5895
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1577338852832,
+      "stop" : 1577338857255,
+      "duration" : 4423
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1577339032838,
+      "stop" : 1577339038117,
+      "duration" : 5279
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1577339044023,
+      "stop" : 1577339044314,
+      "duration" : 291
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeExtentReport",
+    "time" : {
+      "start" : 1577339044638,
+      "stop" : 1577339044686,
+      "duration" : 48
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCases.SortTestCases"
+  }, {
+    "name" : "testClass",
+    "value" : "testCases.SortTestCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySortHighestToLowestPrice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Demo Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "React Shopping Cart Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCases.SortTestCases"
+  }, {
+    "name" : "host",
+    "value" : "Amitk5"
+  }, {
+    "name" : "thread",
+    "value" : "5272@Amitk5.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "${browser}"
+  }, {
+    "name" : "env",
+    "value" : "qa1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6d626f807a35373",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577338394821,
+        "stop" : 1577338401133,
+        "duration" : 6312
+      }
+    }, {
+      "uid" : "9ad1632848e28e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577337631499,
+        "stop" : 1577337637668,
+        "duration" : 6169
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3203150670f9f4f.json",
+  "parameterValues" : [ "${browser}", "qa1" ]
+}

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "e3203150670f9f4f",
+  "name" : "Verify sort by price Highest to Lowest",
+  "time" : {
+    "start" : 1577339038125,
+    "stop" : 1577339044020,
+    "duration" : 5895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd329ef99b2606ad",
+  "name" : "Verify that when same product is added multiple times or removed, quanity is correctly updated",
+  "time" : {
+    "start" : 1577338885079,
+    "stop" : 1577338912913,
+    "duration" : 27834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c7b225be0f755cd",
+  "name" : "Verify that subtotal gets correctly updated when product quantity is increased or decreased.",
+  "time" : {
+    "start" : 1577338925169,
+    "stop" : 1577338940343,
+    "duration" : 15174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de459450becfa5b4",
+  "name" : "Verify filter when exactly 1 product matches filter criteria",
+  "time" : {
+    "start" : 1577338984595,
+    "stop" : 1577338991071,
+    "duration" : 6476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94247a43775547f1",
+  "name" : "Verify filter when multiple products matches filter criteria",
+  "time" : {
+    "start" : 1577339012808,
+    "stop" : 1577339019258,
+    "duration" : 6450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22fd3596f62f87be",
+  "name" : "Verify cart is empty by default",
+  "time" : {
+    "start" : 1577338973624,
+    "stop" : 1577338973707,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51af3e2b3ae1d686",
+  "name" : "Verify that clicking on product image does not add product to cart.",
+  "time" : {
+    "start" : 1577338952694,
+    "stop" : 1577338956033,
+    "duration" : 3339
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "af8bd9c088f4e80d",
+  "name" : "Verify that the item for which 'Add to card' was clicked, is getting added to cart.",
+  "time" : {
+    "start" : 1577338864300,
+    "stop" : 1577338872751,
+    "duration" : 8451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7091d7f5fd0da82f",
+  "name" : "Verify sort by price Lowest to Highest",
+  "time" : {
+    "start" : 1577339026710,
+    "stop" : 1577339032834,
+    "duration" : 6124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d71fd8ac9c3100f5",
+  "name" : "Verify filter when no product matches filter criteria",
+  "time" : {
+    "start" : 1577338998720,
+    "stop" : 1577339005211,
+    "duration" : 6491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e91cf85d24fb169",
+  "name" : "Verify count of products displayed is correct",
+  "time" : {
+    "start" : 1577338979003,
+    "stop" : 1577338979140,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

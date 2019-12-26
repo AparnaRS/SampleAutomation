@@ -31,3 +31,12 @@ mvn test =Dbrowser=firefox     // to execute tests in firefox
 Out of 11, 10 test cases and expected to pass and 1 testt case is expected to fail
 
 Check report index.html in folder 'test-output'
+
+Not sure if you will be able to generate allure-report, cause it needs allure-commandline to be installed on local machine, but you can view sample allure report in allure-report/index.html
+
+To generate a new allure report, 
+1. Install allure-commandline on local machine
+
+2. allure generate
+
+3. allure open

@@ -1,0 +1,166 @@
+{
+  "uid" : "51af3e2b3ae1d686",
+  "name" : "Verify that clicking on product image does not add product to cart.",
+  "fullName" : "testCases.CartTestCases.verifyClickingOnProductImageDoesNotAddProductToCart",
+  "historyId" : "96a141f8ae175acc8545562535aa311",
+  "time" : {
+    "start" : 1577338952694,
+    "stop" : 1577338956033,
+    "duration" : 3339
+  },
+  "status" : "failed",
+  "statusMessage" : "Failed: Cart should not be open on clicking on product. expected [false] but found [true]",
+  "statusTrace" : "java.lang.AssertionError: Failed: Cart should not be open on clicking on product. expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:304)\r\n\tat testCases.CartTestCases.verifyClickingOnProductImageDoesNotAddProductToCart(CartTestCases.java:89)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\r\n\tat org.testng.TestNG.run(TestNG.java:1115)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:206)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:160)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:83)\r\n\tat org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)\r\n\tat org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1107)\r\n\tat org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:954)\r\n\tat org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:832)\r\n\tat org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)\r\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)\r\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)\r\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)\r\n\tat org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)\r\n\tat org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)\r\n\tat org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)\r\n\tat org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)\r\n\tat org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)\r\n\tat org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)\r\n\tat org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)\r\n\tat org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)\r\n\tat org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)\r\n\tat org.apache.maven.cli.MavenCli.main(MavenCli.java:199)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)\r\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)\r\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)\r\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1577338857281,
+      "stop" : 1577338864251,
+      "duration" : 6970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1577338852832,
+      "stop" : 1577338857255,
+      "duration" : 4423
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearCart",
+    "time" : {
+      "start" : 1577338956040,
+      "stop" : 1577338968350,
+      "duration" : 12310
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1577339044023,
+      "stop" : 1577339044314,
+      "duration" : 291
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeExtentReport",
+    "time" : {
+      "start" : 1577339044638,
+      "stop" : 1577339044686,
+      "duration" : 48
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCases.CartTestCases"
+  }, {
+    "name" : "testClass",
+    "value" : "testCases.CartTestCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyClickingOnProductImageDoesNotAddProductToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Demo Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "React Shopping Cart Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCases.CartTestCases"
+  }, {
+    "name" : "host",
+    "value" : "Amitk5"
+  }, {
+    "name" : "thread",
+    "value" : "5272@Amitk5.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "${browser}"
+  }, {
+    "name" : "env",
+    "value" : "qa1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5c25814bb65fc8b6",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cart should not be open on clicking on product. expected [false] but found [true]",
+      "time" : {
+        "start" : 1577338308966,
+        "stop" : 1577338312449,
+        "duration" : 3483
+      }
+    }, {
+      "uid" : "c5d8020f0eb23934",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cart should not be open on clicking on product. expected [false] but found [true]",
+      "time" : {
+        "start" : 1577337545553,
+        "stop" : 1577337549055,
+        "duration" : 3502
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "51af3e2b3ae1d686.json",
+  "parameterValues" : [ "${browser}", "qa1" ]
+}

@@ -1,0 +1,158 @@
+{
+  "uid" : "bd329ef99b2606ad",
+  "name" : "Verify that when same product is added multiple times or removed, quanity is correctly updated",
+  "fullName" : "testCases.CartTestCases.verifyQuantityGetsUpdatedCorrectly",
+  "historyId" : "c5e3c4e9703cdce8f4819b3b2d56d0d4",
+  "time" : {
+    "start" : 1577338885079,
+    "stop" : 1577338912913,
+    "duration" : 27834
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1577338857281,
+      "stop" : 1577338864251,
+      "duration" : 6970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1577338852832,
+      "stop" : 1577338857255,
+      "duration" : 4423
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1577339044023,
+      "stop" : 1577339044314,
+      "duration" : 291
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "clearCart",
+    "time" : {
+      "start" : 1577338912919,
+      "stop" : 1577338925157,
+      "duration" : 12238
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeExtentReport",
+    "time" : {
+      "start" : 1577339044638,
+      "stop" : 1577339044686,
+      "duration" : 48
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCases.CartTestCases"
+  }, {
+    "name" : "testClass",
+    "value" : "testCases.CartTestCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyQuantityGetsUpdatedCorrectly"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Demo Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "React Shopping Cart Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCases.CartTestCases"
+  }, {
+    "name" : "host",
+    "value" : "Amitk5"
+  }, {
+    "name" : "thread",
+    "value" : "5272@Amitk5.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "${browser}"
+  }, {
+    "name" : "env",
+    "value" : "qa1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "db3c7dc597941c73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577338241525,
+        "stop" : 1577338269595,
+        "duration" : 28070
+      }
+    }, {
+      "uid" : "4e0cf5df4b55395c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577337478641,
+        "stop" : 1577337506170,
+        "duration" : 27529
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd329ef99b2606ad.json",
+  "parameterValues" : [ "${browser}", "qa1" ]
+}

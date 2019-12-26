@@ -1,0 +1,140 @@
+{
+  "uid" : "1c0fcd492c644ac8",
+  "name" : "Verify filter when no product matches filter criteria",
+  "fullName" : "testCases.FilterTestCases.verifyFilterWhenNoMatchingProduct",
+  "historyId" : "df3cd8013f9371816fcc3696a0a52154",
+  "time" : {
+    "start" : 1577338355292,
+    "stop" : 1577338361731,
+    "duration" : 6439
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1577338209177,
+      "stop" : 1577338213615,
+      "duration" : 4438
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1577338350052,
+      "stop" : 1577338355279,
+      "duration" : 5227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "unselectAllSelectedFilters",
+    "time" : {
+      "start" : 1577338361739,
+      "stop" : 1577338364240,
+      "duration" : 2501
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1577338401140,
+      "stop" : 1577338401490,
+      "duration" : 350
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeExtentReport",
+    "time" : {
+      "start" : 1577338401817,
+      "stop" : 1577338401863,
+      "duration" : 46
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCases.FilterTestCases"
+  }, {
+    "name" : "testClass",
+    "value" : "testCases.FilterTestCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyFilterWhenNoMatchingProduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Demo Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "React Shopping Cart Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCases.FilterTestCases"
+  }, {
+    "name" : "host",
+    "value" : "Amitk5"
+  }, {
+    "name" : "thread",
+    "value" : "13572@Amitk5.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "${browser}"
+  }, {
+    "name" : "env",
+    "value" : "qa1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c0fcd492c644ac8.json",
+  "parameterValues" : [ "${browser}", "qa1" ]
+}

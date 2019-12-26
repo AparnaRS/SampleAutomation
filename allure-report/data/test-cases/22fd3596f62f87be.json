@@ -1,0 +1,158 @@
+{
+  "uid" : "22fd3596f62f87be",
+  "name" : "Verify cart is empty by default",
+  "fullName" : "testCases.FilterTestCases.verifyDefaultCartState",
+  "historyId" : "9f0ddb53c3e68096a32a62974052e8f9",
+  "time" : {
+    "start" : 1577338973624,
+    "stop" : 1577338973707,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1577338852832,
+      "stop" : 1577338857255,
+      "duration" : 4423
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1577338968356,
+      "stop" : 1577338973613,
+      "duration" : 5257
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "unselectAllSelectedFilters",
+    "time" : {
+      "start" : 1577338973712,
+      "stop" : 1577338973831,
+      "duration" : 119
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1577339044023,
+      "stop" : 1577339044314,
+      "duration" : 291
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeExtentReport",
+    "time" : {
+      "start" : 1577339044638,
+      "stop" : 1577339044686,
+      "duration" : 48
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCases.FilterTestCases"
+  }, {
+    "name" : "testClass",
+    "value" : "testCases.FilterTestCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyDefaultCartState"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Demo Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "React Shopping Cart Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCases.FilterTestCases"
+  }, {
+    "name" : "host",
+    "value" : "Amitk5"
+  }, {
+    "name" : "thread",
+    "value" : "5272@Amitk5.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "${browser}"
+  }, {
+    "name" : "env",
+    "value" : "qa1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "92c383bee295357",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577338330024,
+        "stop" : 1577338330102,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "f66aa1063dc54093",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577337566825,
+        "stop" : 1577337566908,
+        "duration" : 83
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22fd3596f62f87be.json",
+  "parameterValues" : [ "${browser}", "qa1" ]
+}

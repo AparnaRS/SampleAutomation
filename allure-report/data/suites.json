@@ -1,0 +1,168 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Demo Test Suite",
+    "children" : [ {
+      "name" : "React Shopping Cart Test Cases",
+      "children" : [ {
+        "name" : "testCases.CartTestCases",
+        "children" : [ {
+          "name" : "Verify that the item for which 'Add to card' was clicked, is getting added to cart.",
+          "uid" : "af8bd9c088f4e80d",
+          "parentUid" : "59294377bba7e5e6cdd3e8ffdcb8c408",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577338864300,
+            "stop" : 1577338872751,
+            "duration" : 8451
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify that when same product is added multiple times or removed, quanity is correctly updated",
+          "uid" : "bd329ef99b2606ad",
+          "parentUid" : "59294377bba7e5e6cdd3e8ffdcb8c408",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577338885079,
+            "stop" : 1577338912913,
+            "duration" : 27834
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify that subtotal gets correctly updated when product quantity is increased or decreased.",
+          "uid" : "9c7b225be0f755cd",
+          "parentUid" : "59294377bba7e5e6cdd3e8ffdcb8c408",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577338925169,
+            "stop" : 1577338940343,
+            "duration" : 15174
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify that clicking on product image does not add product to cart.",
+          "uid" : "51af3e2b3ae1d686",
+          "parentUid" : "59294377bba7e5e6cdd3e8ffdcb8c408",
+          "status" : "failed",
+          "time" : {
+            "start" : 1577338952694,
+            "stop" : 1577338956033,
+            "duration" : 3339
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        } ],
+        "uid" : "59294377bba7e5e6cdd3e8ffdcb8c408"
+      }, {
+        "name" : "testCases.FilterTestCases",
+        "children" : [ {
+          "name" : "Verify cart is empty by default",
+          "uid" : "22fd3596f62f87be",
+          "parentUid" : "7a8d4f4c373bc940f54e0f0b051008d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577338973624,
+            "stop" : 1577338973707,
+            "duration" : 83
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify count of products displayed is correct",
+          "uid" : "8e91cf85d24fb169",
+          "parentUid" : "7a8d4f4c373bc940f54e0f0b051008d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577338979003,
+            "stop" : 1577338979140,
+            "duration" : 137
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify filter when exactly 1 product matches filter criteria",
+          "uid" : "de459450becfa5b4",
+          "parentUid" : "7a8d4f4c373bc940f54e0f0b051008d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577338984595,
+            "stop" : 1577338991071,
+            "duration" : 6476
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify filter when no product matches filter criteria",
+          "uid" : "d71fd8ac9c3100f5",
+          "parentUid" : "7a8d4f4c373bc940f54e0f0b051008d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577338998720,
+            "stop" : 1577339005211,
+            "duration" : 6491
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify filter when multiple products matches filter criteria",
+          "uid" : "94247a43775547f1",
+          "parentUid" : "7a8d4f4c373bc940f54e0f0b051008d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577339012808,
+            "stop" : 1577339019258,
+            "duration" : 6450
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        } ],
+        "uid" : "7a8d4f4c373bc940f54e0f0b051008d1"
+      }, {
+        "name" : "testCases.SortTestCases",
+        "children" : [ {
+          "name" : "Verify sort by price Lowest to Highest",
+          "uid" : "7091d7f5fd0da82f",
+          "parentUid" : "e952f5280ee318f5e55f3a1a7667deac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577339026710,
+            "stop" : 1577339032834,
+            "duration" : 6124
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        }, {
+          "name" : "Verify sort by price Highest to Lowest",
+          "uid" : "e3203150670f9f4f",
+          "parentUid" : "e952f5280ee318f5e55f3a1a7667deac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577339038125,
+            "stop" : 1577339044020,
+            "duration" : 5895
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "${browser}", "qa1" ]
+        } ],
+        "uid" : "e952f5280ee318f5e55f3a1a7667deac"
+      } ],
+      "uid" : "c1af171d355c1c9362027d63e4bfa80b"
+    } ],
+    "uid" : "931282c005ee2230baee3b994211d8b3"
+  } ]
+}
