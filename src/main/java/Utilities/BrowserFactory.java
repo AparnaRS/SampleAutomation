@@ -27,9 +27,9 @@ public class BrowserFactory {
 		WebDriver driver;
 		log.info("Starting " + browser + " driver");
 		
-		switch (browser) {
+		switch (browser.trim()) {
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", DATA_FOLDER_PATH+File.separator+"geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", getFirefoxDriverPath());
 			driver = new FirefoxDriver();
 			break;
 		
@@ -84,7 +84,7 @@ public class BrowserFactory {
 	
 		
 		default:
-			System.setProperty("webdriver.chrome.driver", DATA_FOLDER_PATH+File.separator+"chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", getChromeDriverPath());
 			driver = new ChromeDriver();
 			break;
 		}
