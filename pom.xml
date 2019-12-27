@@ -108,7 +108,8 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<forkMode>never</forkMode>
+					<forkCount>2</forkCount>
+                    <reuseForks>false</reuseForks>
 				</configuration>
 			</plugin>
 		</plugins>
