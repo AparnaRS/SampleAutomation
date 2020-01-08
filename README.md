@@ -15,7 +15,7 @@ Extent Reports
 
 ### Steps to clone execute the tests
 
-git clone https://github.com/AparnaRS/OpenTable.git
+git clone https://github.com/AparnaRS/SampleAutomation.git
 
 ##Steps to execute tests
 
