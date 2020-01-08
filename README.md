@@ -19,16 +19,16 @@ git clone https://github.com/AparnaRS/SampleAutomation.git
 
 ##Steps to execute tests
 
+// to execute tests in chrome
+mvn test -Dbrowser=chrome     
 
-mvn test -Dbrowser=chrome     // to execute tests in chrome
-
-
-mvn test =Dbrowser=firefox     // to execute tests in firefox
+// to execute tests in firefox
+mvn test =Dbrowser=firefox     
 
 
 ### The driver versions uploaded are for chromedriver 79 
 
-Out of 11, 10 test cases and expected to pass and 1 testt case is expected to fail
+Out of 11, 10 test cases are expected to pass and 1 test case is expected to fail
 
 Check report index.html in folder 'test-output'
 
