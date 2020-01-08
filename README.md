@@ -20,9 +20,11 @@ git clone https://github.com/AparnaRS/SampleAutomation.git
 ##Steps to execute tests
 
 // to execute tests in chrome
+
 mvn test -Dbrowser=chrome     
 
 // to execute tests in firefox
+
 mvn test =Dbrowser=firefox     
 
 
